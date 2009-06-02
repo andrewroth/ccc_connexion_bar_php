@@ -2,7 +2,9 @@
 
 //Relevant settings.  Declared globally in gen_Defines.php
 
-/*define( 'SITE_CAS_HOSTNAME',"signin.mygcx.org" );
+/*
+include_once("CAS.php");
+define( 'SITE_CAS_HOSTNAME',"signin.mygcx.org" );
 define( 'SITE_CAS_PORT',443 );
 define( 'SITE_CAS_PATH','/cas' );
 define("SITE_CAS_SESSION", 0);
